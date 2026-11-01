@@ -1,0 +1,28 @@
+
+1. from the feedback that i got, i was supposed to give a detailed changelog with references.
+2. For part 3 of the POE, we were supposed to introduce JavaScript to make the website interactive. 
+3. To do that we were supposed to create a form were the uses will have to interact with and answer wthe quiestions
+that are supposed to be delivered to me as the owner of the website. To do that i had to introduce or rather 
+create a new HTML file called enquiry so that the customers and users can enqire.
+4. When creating this file what i had in mind was what information do i need to make sure that i know the customers 
+and what their issues are.
+5. after ctreating this i had to make it function, functional in a sense that i should be able to receive a message 
+sent by the users this is where i introduced JAVASCRIPT.
+6. Using Javascript i had to make my buttons functional so if the button says we are searching that should happen 
+when i try to search so in this case, i used it to make sure that the user submit the correct details when asked to 
+submit the name, the email etc.
+7. the POE also asked us to make the pictures in our gallery a slideshow or animated, and to achieve this i had 
+to make a gallery html file because i didnt have it, then after introducing this i used Javascript to make the 
+slideshow, from how many puctures im putting in the slideshow to how long they should last when displayed before
+the next picture pops up.
+8. i also introduced a new feature in our project which is the live location of the Cafe, again using Javascript
+we did a live location which will show you hhow long are you from the place and give you directions, basically it 
+takes you straight to google maps the you will be able to see lthe exact directions.
+9. i also took the initaitive to put on the live time update so the users can see exact time.
+
+References 
+QcyCQgAEEUYOxj5BzIGCAEQRRg5MgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEEUYPDIGCAcQRRg8MgYICBBFGDzSAQg3MjgyajBqNKgCB7ACAQ
+https://restaurantguru.com/Vilakazi-Espresso-Johannesburg?r=6064#gallery
+https://pathfinder.w3schools.com/
+https://www.youtube.com/watch?v=W6NZfCO5SIk
+https://www.youtube.com/watch?v=2O8pkybH6po

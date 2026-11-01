@@ -1,0 +1,4 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://vilakazi-espresso-curios.netlify.app/sitemap.xml

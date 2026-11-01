@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Vilakazi Espresso and Curios">
+    <meta name="keywords" content="Vilakazi Espresso & Curios, Soweto Coffee Shop">
+    <meta name="author" content="Ntando Hlongwane">
+    <meta name="robots" content="index, follow">
+    <title>Enquiry Page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+
+<body>
+    
+<header>
+     <img src="images/image0 (2).jpeg">
+     <p class="tagline">Coffee + Culture on Vilakazi Street</p>
+
+    <nav>
+       <a href="index.html">Index|</a>
+       <a href="about-us.html"> About Us|</a>
+       <a href="products.html">Products and Services|</a>
+       <a href="gallery.html">Gallery|</a>
+       <a href="contact-us.html">Contact Us|</a>
+       <a href="enquiry.html">Enqire Here</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            We provide quality servives and value our Coustomers.
+            We would like for you commplete this form below 
+            just to let us know as our team were we should improve our service
+        </p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="form-container">
+            <h2>Contact form</h2>
+            <p>Please provide an answer for every question</p>
+
+            <form id="contactForm">
+                <label for="name">Full Name</label>
+                <input type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    minlength="2"
+                    maxlength="80"
+                    pattern="[A-Za-z\s\-']+"
+                    autocomplete="name"
+                    required>
+
+                    <label for="email">Enter your Email Address</label>
+                    <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="vilakaziespresso@gmail.com"
+                    maxlength="254"
+                    autocomplete="email"
+                    required>
+
+                    <label for="phone">Enter your Phone Number</label>
+                    <input type="tel"
+                    id="phone"
+                    name="email"
+                    placeholder="+27 60 123 4567"
+                    pattern="[+]?[0-9 ()-]{9,20}"
+                    autocomplete="tel"
+                    required>
+
+                    <label for="subject"></label>
+                    <select name="subject" id="subject" required>
+                        <option value="">Select a Subject</option>
+                        <option value="General Enquiry">General Enquiry</option>
+                        <option value="Support">Support</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" 
+                                id="message"
+                                rows="6"
+                                minlength="5"
+                                maxlength="1500"
+                                placeholder="Write your message here..."
+                                required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="location" class="location-section">
+        <h2>Find our location</h2>
+        <iframe src="https://www.bing.com/maps/search?name=Vilakazi+Espresso&FORM=MPSRPL&style=r&q=-26.234178%2C27.907809" 
+                title="Map showing Vilakazi Espresso & Curios"
+                width="100%"
+                height="350"
+                style="border:0"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen>
+            </iframe>
+    </section>
+</main>
+
+
+        <footer>
+            &copy; ST10502484 | 2026 Vilakzi Expresso & Curios | Coffee Shop
+            <p id="datetime"></p>
+        </footer>
+   <script src="JavaScript/index.js"></script> 
+</body>
+</html>
